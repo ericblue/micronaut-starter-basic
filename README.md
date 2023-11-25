@@ -4,7 +4,6 @@ Micronaut-Starter-Basic - A basic starter project for Micronaut
 
 This starter web application, written in Java using the Micronaut (https://micronaut.io/) framework provides a simple project template to get started quickly with a new Micronaut project
 
-
 ### Getting started
 
 * Rename the project package by refactoring the package name in your IDE, or by using the OpenRewrite gradle plugin - See: https://github.com/openrewrite/rewrite-docs/blob/master/reference/recipes/java/changepackage.md

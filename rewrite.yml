@@ -1,0 +1,9 @@
+---
+type: specs.openrewrite.org/v1beta/recipe
+name: com.ericblue.ChangePackageExample
+displayName: Rename package name example
+recipeList:
+  - org.openrewrite.java.ChangePackage:
+      oldPackageName: com.ericblue.micronaut.starter
+      newPackageName: com.yourorg.micronaut.project
+      recursive: null
