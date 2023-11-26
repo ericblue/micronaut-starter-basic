@@ -53,7 +53,7 @@ public class SampleAPIController {
     public Message sendMessage(@QueryValue("text") String text) {
 
         if (!(StringUtils.isEmpty(text))) {
-            Message message = new Message(text);
+            Message message = Message.builder().text(text).build();
             Message responseMessage = sampleAPIService.sendMessage(message);
             return responseMessage;
         } else {
