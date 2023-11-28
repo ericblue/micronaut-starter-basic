@@ -1,6 +1,6 @@
 applicationType: default
-defaultPackage: com.ericblue.micronaut.starter
+defaultPackage: com.ericblue.micronaut
 testFramework: junit
 sourceLanguage: java
 buildTool: gradle
-features: [annotation-api, app-name, data, data-jdbc, flyway, graalvm, gradle, http-client, http-session, java, java-application, jdbc-hikari, junit, logback, management, micronaut-build, netty-server, openapi, postgres, readme, security-annotations, security-jwt, serialization-jackson, shade, spring, spring-boot, spring-data-jdbc, spring-web, swagger-ui, test-resources, views-handlebars, yaml]
+features: [app-name, github-workflow-ci, graalvm, gradle, http-client, http-session, java, java-application, jib, junit, log4j2, lombok, management, micrometer, micrometer-annotation, micronaut-aot, micronaut-build, micronaut-http-validation, netty-server, openapi, openrewrite, reactor, reactor-http-client, readme, serialization-jackson, shade, swagger-ui, validation, views-handlebars, yaml, yaml-build]
